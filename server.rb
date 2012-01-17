@@ -2,5 +2,5 @@ require 'rubygems'
 require 'sinatra'
 
 get "/" do
-  ENV['MESSAGE']
+  "<b>#{ENV['MESSAGE']}</b>"
 end
